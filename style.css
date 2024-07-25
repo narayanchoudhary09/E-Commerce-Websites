@@ -77,22 +77,23 @@ body {
 
 /* Header Start*/
 #header .logo{
-  height:40px;
-  width: 80px;
+  height:45px;
+  width: 130px;
+  border-radius: 4px;
 }
 #header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px 80px;
-  background: #d7d4f3;
+  background: #572424;
   box-shadow: 0 15px 15px rgba(0, 0, 0, 0.06);
   z-index: 999;
   position: sticky;
   top: 0;
   left: 0;
 }
-/* .
+
 #navbar {
   display: flex;
   align-items: center;
@@ -135,9 +136,9 @@ body {
 
 #close {
   display: none;
-} */
+}
 
-/* Home Page*/
+/* Home Page */
 
 #hero {
   background-image: url("img/hero4.png");
@@ -359,10 +360,11 @@ body {
   height: 40vh;
   background-size: cover;
   background-position: center;
+  
 }
 
 #banner h4 {
-  color: #fff;
+  
   font-size: 16px;
 }
 
@@ -379,12 +381,14 @@ body {
 #banner button:hover {
   background-color: #088178;
   color: #fff;
+  border-radius: 8px;
 }
 
 #sm-banner {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  
 }
 #sm-banner .banner-box {
   display: flex;
@@ -398,6 +402,7 @@ body {
   background-position: center;
   padding: 30px;
   position: relative;
+  border-radius: 8px;
 }
 
 #sm-banner .banner-box2 {
@@ -426,6 +431,7 @@ body {
 #sm-banner .banner-box:hover button {
   background-color: #088178;
   border: 1px solid #088178;
+  border-radius: 8px;
 }
 
 #banner3 {
@@ -433,6 +439,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0 80px;
+  
 }
 
 #banner3 .banner-box {
@@ -447,6 +454,7 @@ body {
   background-position: center;
   padding: 20px;
   margin-bottom: 20px;
+  border-radius: 8px;
 }
 
 #banner3 .banner-box2 {
@@ -535,6 +543,9 @@ footer .col {
 
 footer .logo {
   margin-bottom: 30px;
+  height:50px;
+  width: 150px;
+  border-radius: 4px;
 }
 
 footer h4 {
@@ -870,6 +881,7 @@ footer .copyright {
   align-items: flex-start;
   /* border: 3px solid red; */
 }
+
 
 #form-details form input,
 #form-details form textarea {
